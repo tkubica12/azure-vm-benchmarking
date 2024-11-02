@@ -1,0 +1,33 @@
+vms:
+  D2pds-v6:
+    sku_name: "Standard_D2pds_v6"
+    cpu_name: "ARMv8 Neoverse-N2"
+    price_hour: 0.0906
+    price_hour_3y_ri: 0.0344
+    nginx: 9231
+    redis: 1778964
+    stockfish: 1716147
+  D2pds-v5:
+    sku_name: "Standard_D2pds_v5"
+    cpu_name: "ARMv8 Neoverse-N1"
+    price_hour: 0.0889
+    price_hour_3y_ri: 0.0329
+    nginx: 5016
+    redis: 1220380
+    stockfish: 1127713
+  D2ads-v5:
+    sku_name: "Standard_D2ads_v5"
+    cpu_name: "AMD EPYC 7763 64-Core"
+    price_hour: 0.1019
+    price_hour_3y_ri: 0.0387
+    nginx: 5145
+    redis: 1651916
+    stockfish: 1434917
+  D2ds-v5:
+    sku_name: "Standard_D2ds_v5"
+    cpu_name: "Intel Xeon Platinum 8370C @ 2.80GHz"
+    price_hour: 0.1111
+    price_hour_3y_ri: 0.0422
+    nginx: 8115
+    redis: 1722584
+    stockfish: 1320975

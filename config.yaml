@@ -1,0 +1,9 @@
+vms:
+  D2pds-v6:
+    sku_name: "Standard_D2pds_v6"
+  D2pds-v5:
+    sku_name: "Standard_D2pds_v5"
+  D2ads-v5:
+    sku_name: "Standard_D2ads_v5"
+  D2ds-v5:
+    sku_name: "Standard_D2ds_v5"
