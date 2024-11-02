@@ -1,6 +1,11 @@
-# azure-vm-benchmarking
+# Azure VM benchmarking
+Simple guide to run few benchmarks to decide what VM SKU is best and what workload.
 
-Testing
+## Results
+My results are [here](https://tkubica12.github.io/azure-vm-benchmarking/results_table.html)
+
+## Testing
+Configure ```config.yaml``` with SKUs to test.
 
 ```bash
 # Install Phoronix Test Suite
@@ -20,7 +25,4 @@ phoronix-test-suite benchmark pts/stockfish-1.6.0
 phoronix-test-suite benchmark pts/redis-1.4.0         # Use SET and 50 connections
 ```
 
-
-
-postgresql postgresql-contrib
-cp $(which pgbench) .
+Than fill in details in ```results.yaml``` and run ```calculate_table.py``` to generate results.

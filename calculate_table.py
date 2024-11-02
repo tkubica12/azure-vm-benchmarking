@@ -151,5 +151,5 @@ def generate_grouped_html_table(df, tests):
 html_table = generate_grouped_html_table(df, tests)
 
 # Store table as Markdown file with embedded HTML
-with open('results_table.md', 'w') as md_file:
+with open('docs/results_table.html', 'w') as md_file:
     md_file.write(html_table)
